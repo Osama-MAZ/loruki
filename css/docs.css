@@ -1,0 +1,53 @@
+.docs{
+    background: var(--bg-praimary);
+    color:white;
+}
+.card{
+    box-shadow: unset;
+    border: 3px solid #ddcdcd;
+    margin: 20px 0;
+}
+.card:nth-child(1){
+    background: #ccc;
+    box-shadow: unset;
+    max-height: 400px;
+}
+.card:nth-child(1) a{
+    display: block;
+    padding: 10px 0 ;
+    border-bottom: 2px solid #777;
+}
+.card:nth-child(1) .esscntials .intro{
+    color: blue;
+}
+
+.card:nth-child(2){
+    grid-column: span 2;
+    margin: 0 20px;
+}
+.card:nth-child(2) p{
+    line-height: 30px;
+    font-weight: 300;
+}
+.card:nth-child(2) .help_mark{
+    background: #080;
+    padding: 10px 15px;
+    color: white;
+}
+.card:nth-child(2) .help_mark span span{
+   font-size: 1.2rem;
+   margin-right:10px ;
+}
+
+@media (max-width:768px){
+    .card:nth-child(1){
+        grid-column: span 2;
+    }
+}
+
+.card .insatlling-orders{
+    margin: 15px 0;
+}
+.card .insatlling-orders h5{
+    margin: 15px 0;
+}
